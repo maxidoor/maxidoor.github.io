@@ -1,0 +1,116 @@
+.container {
+  max-width: 960px;
+}
+
+/*
+Szary tekst - #707070
+Czerwony - #FF000A
+BIAŁY - #Ffffff
+Czarny - #000000
+
+Stopka i pasek menu szary - #3D3D3D
+
+Czcionka Roboto:
+
+Duże napisy - 51pt (nagłówki)
+Tekst - 21pt
+
+Wszystko co mniejsze - 13 pt
+*/
+
+/*
+ * Site menu
+ */
+.site-header {
+  border-top: 12px solid #3D3D3D;
+  background-color: #000000;
+}
+.site-header-ml {
+  margin-left:15rem!important;
+}
+.site-header-mr {
+  margin-right:17rem!important;
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+  text-transform:uppercase;
+}
+
+.site-header a {
+  color: #Ffffff;
+  text-decoration: none;
+}
+
+.site-header a:hover {
+  color: #FF000A;
+  text-decoration: none;
+}
+
+/*
+ * Site content
+ */
+
+.content-background {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.poznajnas-background-file {
+  background-image: url(../img/glowna.jpg);
+}
+
+.poznajnas h1 {
+  color: #FF000A;
+}
+.poznajnas-txt {
+  margin-top:15rem!important;
+  margin-left:15rem!important;
+}
+
+.onas-background-file {
+  background-image: url(../img/o_nas.jpeg);
+}
+
+.oferta-background-file {
+  background-image: url(../img/oferta.jpeg);
+}
+
+.realizacje-background-file {
+  background-image: url(../img/realizacja1.jpeg);
+}
+
+.kontakt-background-file {
+  background-image: url(../img/kontakt.jpg);
+}
+
+/*
+ * Extra utilities
+ */
+
+.button-black {
+
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
