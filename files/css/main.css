@@ -2,6 +2,19 @@
   max-width: 960px;
 }
 
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
 /*
 Szary tekst - #707070
 Czerwony - #FF000A
@@ -59,37 +72,53 @@ Wszystko co mniejsze - 13 pt
   background-repeat: no-repeat;
 }
 
-.poznajnas-background-file {
-  background-image: url(../img/glowna.jpg);
+.poznajnas-background {
+  background-color: #3D3D3D;
 }
 
-.poznajnas h1 {
-  color: #FF000A;
-}
-.poznajnas-txt {
-  margin-top:15rem!important;
-  margin-left:17rem!important;
-}
-
-.onas-background-file {
+.onas-background {
   background-image: url(../img/o_nas.jpeg);
 }
 
-.oferta-background-file {
-  background-image: url(../img/oferta.jpeg);
+.oferta-background {
+ background-color: #fff
 }
 
-.realizacje-background-file {
+.realizacje-background {
   background-image: url(../img/realizacja1.jpeg);
 }
 
-.kontakt-background-file {
+.kontakt-background {
   background-image: url(../img/kontakt.jpg);
 }
 
 /*
  * Extra utilities
  */
+
+
+.color-red {
+  color: #FF000A;
+}
+
+.color-white {
+  color: #Ffffff;
+}
+
+.left-content-txt {
+  margin-top:10rem!important;
+  margin-left:17rem!important;
+}
+
+
+.right-content-txt {
+  margin-top:6rem!important;
+}
+
+.border-white {
+    border-color: #fff;
+    border: 1px solid #fff;
+}
 
 .btn-primary {
   background-color: #000000;
@@ -104,6 +133,21 @@ Wszystko co mniejsze - 13 pt
     color: #fff;
     background-color: #FF000A;
     border-color: #FF000A;
+}
+
+.btn-secondary {
+  background-color: #FF000A;
+  border-color: #FF000A;
+  border: 7px solid #FF000A;
+  border-radius: 65px;
+  text-transform:uppercase;
+  font-size: 0.75rem;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open>.dropdown-toggle.btn-secondary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
 }
 
 .border-top { border-top: 1px solid #e5e5e5; }
