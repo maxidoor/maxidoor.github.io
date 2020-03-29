@@ -72,9 +72,6 @@ Wszystko co mniejsze - 13 pt
   background-repeat: no-repeat;
 }
 
-.poznajnas-background {
-  background-color: #3D3D3D;
-}
 
 .onas-background {
   background-image: url(../img/o_nas.jpeg);
@@ -118,6 +115,27 @@ Wszystko co mniejsze - 13 pt
 .border-white {
     border-color: #fff;
     border: 1px solid #fff;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 60%;
+  background-color:#3D3D3D;
+  height: 1px;
+}
+
+.circle-transparent {
+    background: rgba(0, 0, 0, 0.2);;
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+}
+
+.icon-ad-size {
+    height: 70px;
+    width: auto;
 }
 
 .btn-primary {
