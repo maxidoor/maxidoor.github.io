@@ -35,8 +35,7 @@ Wszystko co mniejsze - 13 pt
  * Site menu
  */
 .site-header {
-  border-top: 12px solid #3D3D3D;
-  background-color: #000000;
+  background-color: #3D3D3D;
 }
 
 .navbar-toggler-icon {
@@ -74,6 +73,10 @@ Wszystko co mniejsze - 13 pt
   background-repeat: no-repeat;
 }
 
+.poznajnas-glowna {
+  background-image: url(../img/glowna.jpg);
+}
+
 .poznajnas-background {
   background-image: url(../img/o_nas.jpeg);
 }
@@ -98,6 +101,12 @@ Wszystko co mniejsze - 13 pt
  * Extra utilities
  */
 
+ .img-fit {
+     display: block;
+     width: 100vw;
+     height: 100vh;
+     object-fit: cover;
+ }
 
 .color-red {
   color: #FF000A;
@@ -108,7 +117,7 @@ Wszystko co mniejsze - 13 pt
 }
 
 .left-content-txt {
-  margin-top:10rem!important;
+  margin-top:7rem!important;
 }
 
 
@@ -137,7 +146,7 @@ hr {
 }
 
 .icon-ad-size {
-    height: 70px;
+    height: 50px;
     width: auto;
 }
 

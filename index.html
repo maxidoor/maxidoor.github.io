@@ -18,6 +18,7 @@
     <link href="./files/css/main.css" rel="stylesheet">
     <link href="./files/css/header-carousel.css" rel="stylesheet">
     <link href="./files/css/realizacje-carousel.css" rel="stylesheet">
+    <link href="./files/css/table.css" rel="stylesheet">
   </head>
 
   <body>
@@ -48,17 +49,6 @@
           </li>
         </ul>
       </div>
-      <!-- add language -->
-<!--      <div class="collapse navbar-collapse">-->
-<!--        <ul class="navbar-nav ml-auto">-->
-<!--          <li class="nav-item active">-->
-<!--            <a class="nav-link" href="#">PL</a>-->
-<!--          </li>-->
-<!--          <li class="nav-item">-->
-<!--            <a class="nav-link" href="#">EN</a>-->
-<!--          </li>-->
-<!--        </ul>-->
-<!--      </div>-->
     </nav>
 
     <header id="header" class="container-fluid content-background">
@@ -71,12 +61,9 @@
           <div class="carousel-inner">
             <div class="poznajnas-content row">
               <div class="col-1"></div>
-              <div class="col-4 left-content-txt">
-                <h1 class="font-weight-bold color-red">Maxidoor - hasło z samochodu</h1>
-                <div class="mt-5"></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur congue augue eu sagittis. Quisque eu nibh augue. Cras eu vehicula risus. Quisque nec rutrum lorem. Morbi ipsum dui, ultricies et lectus nec, dictum elementum velit. Aenean pellentesque sapien arcu, id tristique neque tincidunt lobortis. Integer a augue ornare, aliquet felis quis, laoreet justo. Suspendisse posuere ultricies eros a mollis.</p>
-                <div class="mt-5"></div>
-                <a href="#onas-content" class="btn btn-primary font-weight-bold" role="button" aria-disabled="true">Poznaj nas &nbsp; &nbsp; <img width="20px" src="./files/img/icons/arrow_down.svg"></a>
+              <div class="col">
+                <div class="row ">
+                  <a href="#onas-content" class="btn btn-primary font-weight-bold mt-auto" role="button" aria-disabled="true">Poznaj nas &nbsp; &nbsp; <img width="20px" src="./files/img/icons/arrow_down.svg"></a></div>
               </div>
             </div>
             <div class="carousel-item active">
@@ -96,28 +83,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-1"></div>
-          <div class="col-4 left-content-txt">
+          <div class="col-3 left-content-txt">
             <h1 class="font-weight-bold color-red">O nas</h1>
             <div class="mt-5"></div>
-            <p class="color-white">Firma powstała w 1993 roku w Piastowie, jako Multiservice. W sierpniu 2009 r. pod nazwą Maxidoor, przenisoła swą siedzibę do miejscowości Konotopa w gminie Ożarów</p>
+            <p class="color-white">Firma powstała w 1993 roku w Piastowie, jako Multiservice.</p>
+            <p class="color-white">W sierpniu 2009 r. pod nazwą Maxidoor, przenisoła swą siedzibę do miejscowości Konotopa w gminie Ożarów</p>
             <p class="color-white">Od początku działalności zajmujemy się stolarką drzwiową. Celem naszej firmy jest dostarczenie drzwi wysokiej jakości. Zapewniamy profesjonalny montaż i transport  zakupionych u nas produktów.</p>
             <div class="mt-5"></div>
-            <a href="#oferta-content" class="btn btn-secondary font-weight-bold" role="button" aria-disabled="true">Do oferty &nbsp; &nbsp; <img width="20px" src="./files/img/icons/arrow_down.svg"></a>
-          </div>
-          <div class="col-2">
-            <!-- empty -->
-          </div>
-          <div class="right-content-txt col-3 align-self-center">
-            <div class="circle-transparent text-center">
-              <div class="pt-5">
-                <h1 class="font-weight-bold color-red display-2">
-                  27
-                </h1>
-                <p class="color-white">
-                  lat doświadczenia
-                </p>
-              </div>
-            </div>
+            <a href="#oferta-content" aria-disabled="true"><img fill="red" width="20px" src="./files/img/icons/arrow_down.svg"></a>
           </div>
         </div>
       </div>
@@ -127,49 +100,46 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-1"></div>
-          <div class="col-4 left-content-txt">
-            <h1 class="font-weight-bold color-red">Oferta</h1>
-            <div class="mt-5"></div>
-            <p>Od początku działalności zajmujemy się stolarką drzwiową. Celem naszej firmy jest dostarczenie drzwi wysokiej jakości. Zapewniamy profesjonalny montaż i transport  zakupionych u nas produktów.</p>
-            <p>  Wychodząc naprzeciw wciąż rosnącym wymaganiom Klienta, Maxidoor sukcesywnie rozszerza i udoskonala swoją ofertę.</p>
-            <div class="mt-5"></div>
-            <a href="#oferta-content" class="btn btn-primary font-weight-bold" role="button" aria-disabled="true">
+          <div class="col-3 left-content-txt">
+            <div class="row">
+              <h1 class="font-weight-bold color-red">Oferta</h1>
+              <div class="mt-5"></div>
+              <p>W naszej ofercie znajduje się szeroki zakres usług i produktów związanych ze stolarką drzwiową i wystrojem wnętrz.</p>
+            </div>
+            <div class="row">
+              <div class="resp-table">
+                <div class="resp-table-row">
+                  <div class="table-body-cell"><img class="icon-ad-size p-0" src="./files/img/icons/quality.svg"></div>
+                  <div class="table-body-cell pl-1"><span class="text-uppercase font-weight-bold m-auto text-nowrap">Najwyższa jakość</span></div>
+                </div>
+                <div class="resp-table-row">
+                  <div class="table-body-cell"><img class="icon-ad-size p-0" src="./files/img/icons/truck.svg"></div>
+                  <div class="table-body-cell pl-1"><span class="text-uppercase font-weight-bold m-auto text-nowrap">Transport</span></div>
+                </div>
+                <div class="resp-table-row">
+                  <div class="table-body-cell"><img class="icon-ad-size p-0" src="./files/img/icons/tools.svg"></div>
+                  <div class="table-body-cell pl-1"><span class="text-uppercase font-weight-bold m-auto text-nowrap">Profesjonalny montaż</span></div>
+                </div>
+                <div class="resp-table-row">
+                  <div class="table-body-cell"><img class="icon-ad-size p-0" src="./files/img/icons/sketch.svg"></div>
+                  <div class="table-body-cell pl-1"><span class="text-uppercase font-weight-bold m-auto text-nowrap">Indywidualne projekty</span></div>
+                </div>
+              </div>
+            </div>
+            <a href="#oferta-content" class="mt-5 btn btn-primary font-weight-bold" role="button" aria-disabled="true">
               &nbsp; &nbsp; Zobacz &nbsp; &nbsp;
               <img width="20px" src="./files/img/icons/arrow_right.svg">
             </a>
           </div>
-          <div class="right-content col-5 mt-5">
-            <img class="img-fluid" src="./files/img/oferta.jpeg">
+          <div class="col p-0 content-background d-none d-lg-block">
+            <img class="img-fluid img-fit" src="./files/img/oferta.jpeg">
           </div>
-        </div>
-        <div class="row">
-          <hr class="w-75">
-        </div>
-        <div class="row">
-          <div class="col"></div>
-          <div class="col text-center mt-5">
-            <img class="icon-ad-size img-fluid" src="./files/img/icons/quality.svg">
-            <div class="text-uppercase mt-5">Najwyższa jakość</div>
-          </div>
-          <div class="col text-center mt-5">
-            <img class="icon-ad-size img-fluid" src="./files/img/icons/truck.svg">
-            <div class="text-uppercase mt-5">Transport</div>
-          </div>
-          <div class="col text-center mt-5">
-            <img class="icon-ad-size img-fluid" src="./files/img/icons/tools.svg">
-            <div class="text-uppercase mt-5">Profesjonalny montaż</div>
-          </div>
-          <div class="col text-center mt-5">
-            <img class="icon-ad-size img-fluid" src="./files/img/icons/sketch.svg">
-            <div class="text-uppercase mt-5">Indywidualne projekty</div>
-          </div>
-          <div class="col"></div>
         </div>
       </div>
     </div>
 
-    <div id="realizacje-content" class="realizacje realizacje-background">
-      <div class="container-fluid">
+    <div id="realizacje-content" class="content-background realizacje-background">
+      <div class="container-fluid h-100">
         <div class="row">
           <div class="col-1"></div>
           <div class="col-3 left-content-txt">
@@ -179,12 +149,14 @@
             <p>Od początku działalności zajmujemy się stolarką drzwiową. Celem naszej firmy jest dostarczenie drzwi wysokiej jakości. Zapewniamy profesjonalny montaż i transport  zakupionych u nas produktów.</p>
             <p>Wychodząc naprzeciw wciąż rosnącym wymaganiom Klienta, Maxidoor sukcesywnie rozszerza i udoskonala swoją ofertę.</p>
             <div class="mt-5"></div>
-            <a href="#kontakt-content" class="btn btn-primary font-weight-bold" role="button" aria-disabled="true">
-              &nbsp; &nbsp; Kontakt &nbsp; &nbsp;
-              <img width="20px" src="./files/img/icons/arrow_down.svg">
-            </a>
+            <ul>
+              <li>Nazwa projektu</li>
+              <li>Nazwa projektu</li>
+              <li>Nazwa projektu</li>
+              <li>Nazwa projektu</li>
+            </ul>
           </div>
-          <div class="col">
+          <div class="col border border-primary">
             <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -242,8 +214,8 @@
           </div>
           <div class="col-1"></div>
           <div class="col">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.386257309363!2d20.8322903161224!3d52.20002787975485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471935695ae82517%3A0xb8cc24724b26036a!2sMaxidoor.%20W%C3%B3jcicki%20P.!5e0!3m2!1sen!2spl!4v1585505150091!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
-            </iframe>
+<!--            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2445.386257309363!2d20.8322903161224!3d52.20002787975485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471935695ae82517%3A0xb8cc24724b26036a!2sMaxidoor.%20W%C3%B3jcicki%20P.!5e0!3m2!1sen!2spl!4v1585505150091!5m2!1sen!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">-->
+<!--            </iframe>-->
           </div>
         </div>
       </div>

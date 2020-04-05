@@ -5,13 +5,14 @@ header .carousel {
 header .poznajnas-content {
     position: absolute;
     z-index: 100;
-    top:0;
-    bottom:0;
-    height:0;
+    bottom:30%;
 }
 
 header .carousel-img {
-  width: 100%;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
 header ol.carousel-indicators {
