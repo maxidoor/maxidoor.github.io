@@ -26,6 +26,15 @@ ul>li{
   margin-top: 100px;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.row { 
+  margin-right: 0px;
+}
+
 
 a.external-link {
   color: #999;
