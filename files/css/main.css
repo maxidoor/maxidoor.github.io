@@ -1,5 +1,6 @@
-.container {
-  max-width: 960px;
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 html {
@@ -38,6 +39,7 @@ Wszystko co mniejsze - 13 pt
   background-color: #3D3D3D;
 }
 
+
 .navbar-toggler-icon {
   background-image: url(../img/icons/toggle-button.svg);
 }
@@ -46,18 +48,18 @@ Wszystko co mniejsze - 13 pt
   border-color: #FF000A;
 }
 
-.site-header a {
+a {
   color: #999;
   transition: ease-in-out color .15s;
   text-transform:uppercase;
 }
 
-.site-header a {
+a {
   color: #Ffffff;
   text-decoration: none;
 }
 
-.site-header a:hover {
+a:hover {
   color: #FF000A;
   text-decoration: none;
 }
@@ -73,16 +75,8 @@ Wszystko co mniejsze - 13 pt
   background-repeat: no-repeat;
 }
 
-.poznajnas-glowna {
-  background-image: url(../img/glowna.jpg);
-}
-
-.poznajnas-background {
-  background-image: url(../img/o_nas.jpeg);
-}
-
 .onas-background {
-  background-image: url(../img/o_nas.jpeg);
+  background-image: url(../img/o_nas/tlo.png);
 }
 
 .oferta-background {
@@ -94,7 +88,7 @@ Wszystko co mniejsze - 13 pt
 }
 
 .kontakt-background {
-  background-image: url(../img/kontakt.jpg);
+  background-image: url(../img/kontakt/tlo_kontakt.png);
 }
 
 /*
@@ -102,9 +96,6 @@ Wszystko co mniejsze - 13 pt
  */
 
  .img-fit {
-     display: block;
-     width: 100vw;
-     height: 100vh;
      object-fit: cover;
  }
 
@@ -145,6 +136,10 @@ hr {
     height: 270px;
 }
 
+.mt-70percent {
+  margin-top: 70%;
+}
+
 .icon-ad-size {
     height: 50px;
     width: auto;
@@ -180,6 +175,19 @@ hr {
     border-color: #000000;
 }
 
+footer .btn-arrow.collapsed {
+  position: absolute;
+  bottom:5px;
+  z-index: 100;
+}
+
+footer .btn-arrow {
+  position: absolute;
+  bottom:100px;
+  z-index: 100;
+}
+
+
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
@@ -199,3 +207,12 @@ hr {
 }
 
 .overflow-hidden { overflow: hidden; }
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+  background-color: #3D3D3D;
+}

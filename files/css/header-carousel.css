@@ -6,12 +6,10 @@ header .poznajnas-content {
     position: absolute;
     z-index: 100;
     bottom:30%;
+    padding-left: 10%;
 }
 
 header .carousel-img {
-    display: block;
-    width: 100vw;
-    height: 100vh;
     object-fit: cover;
 }
 
