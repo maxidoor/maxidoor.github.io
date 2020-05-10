@@ -181,12 +181,29 @@ footer .btn-arrow.collapsed {
   z-index: 1000;
 }
 
+a[aria-expanded=true] .footer-button-up {
+  display: none;
+}
+a[aria-expanded=false] .footer-button-down{
+  display: none;
+}
+
 footer .btn-arrow {
   position: absolute;
   left:90%;
-  margin-top:-30px;
+  margin-top:-11px;
   z-index: 1000;
 }
+
+@media only screen and (min-width: 768px) {
+  footer .btn-arrow {
+    position: absolute;
+    left:95%;
+    margin-top:-11px;
+    z-index: 1000;
+  }
+}
+
 
 
 .border-top { border-top: 1px solid #e5e5e5; }
