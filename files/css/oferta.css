@@ -2,14 +2,6 @@
   background-image: url(../img/oferta/klamki.png);
 }
 
-.content-separator {
-  border-top: 2px solid #999;
-}
-
-ul {
-  list-style-type: none
-}
-
 ul>li{
   margin: 10px;
 }
