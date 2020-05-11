@@ -51,3 +51,7 @@ a:hover.external-link {
 #klamki-content ul>li {
   margin: 40px 0px 0px 20px;
 }
+
+.background-color-white {
+  background-color: #fff
+ }
