@@ -5,9 +5,23 @@ header .carousel {
 header .poznajnas-content {
     position: absolute;
     z-index: 100;
-    bottom:30%;
+    bottom: 20%;
     padding-left: 10%;
 }
+
+
+@media only screen and (min-width: 1200px) {
+   .onas-button {
+      margin-top: 3rem!important;
+   }
+ }
+
+ @media only screen and (min-width: 1400px) {
+   .onas-button {
+      margin-top: 6rem!important;
+   }
+ }
+
 
 header .carousel-img {
    width: 100%;

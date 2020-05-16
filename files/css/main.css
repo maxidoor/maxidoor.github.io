@@ -15,11 +15,18 @@ header .carousel-inner {
   height: 70px;
 }
 
+.brand-name {
+  height: 150px;
+}
 
 @media only screen and (min-width: 992px) {
   nav {
     padding-left: 8rem!important;
   }
+}
+
+.onas-txt {
+  margin-top: 5rem!important;
 }
 
 #realizacje-content>#carouselIndicators {
@@ -108,7 +115,6 @@ a:hover {
  */
 
 .content-background {
-  min-height: 900px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -116,17 +122,21 @@ a:hover {
 
 .onas-background {
   background-image: url(../img/o_nas/tlo.png);
+  min-height: 900px;
 }
 
 .oferta-background {
  background-color: #fff;
+ min-height: 900px;
 }
 
 .realizacje-background {
- background-color: #fff
+ background-color: #fff;
+ /* min-height: 900px; */
 }
 
 .kontakt-background {
+  min-height: 900px;
   background-image: url(../img/kontakt/tlo_kontakt.png);
 }
 
