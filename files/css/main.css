@@ -25,8 +25,15 @@ header .carousel-inner {
   }
 }
 
+
+@media only screen and (min-width: 768px) {
+  .onas-txt {
+    margin-top: 3rem!important;
+  }
+}
+
 .onas-txt {
-  margin-top: 5rem!important;
+  margin-top: 1rem!important;
 }
 
 #realizacje-content>#carouselIndicators {
@@ -122,7 +129,7 @@ a:hover {
 
 .onas-background {
   background-image: url(../img/o_nas/tlo.png);
-  min-height: 900px;
+  min-height: 700px;
 }
 
 .oferta-background {
@@ -178,7 +185,7 @@ hr {
 }
 
 .mt-70percent {
-  margin-top: 70%;
+  margin-top: 20%;
 }
 
 .mb-7 {
