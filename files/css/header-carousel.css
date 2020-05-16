@@ -10,7 +10,9 @@ header .poznajnas-content {
 }
 
 header .carousel-img {
-    object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   object-fit: cover;
 }
 
 header ol.carousel-indicators {

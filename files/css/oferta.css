@@ -4,7 +4,8 @@
   }
   .img-fit {
     object-fit: cover;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     object-position: 100% 0;
   }
 
