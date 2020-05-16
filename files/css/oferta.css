@@ -1,5 +1,48 @@
+@media only screen and (min-width: 992px) {
+  .section-height {
+    max-height: 900px;
+  }
+  .img-fit {
+    object-fit: cover;
+    height: 100%;
+    object-position: 100% 0;
+  }
+
+  .img-mahoniowe {
+    object-position: 80% 0;
+  }
+  .img-niestandardowe {
+    object-position: 80% 0;
+  }
+  
+  .img-zabudowy {
+    object-position: 60% 0;
+  }
+  
+  .img-listwy {
+    object-position: 50% 0;
+  }
+  
+  .img-partnerzy {
+    object-position: 50% 0;
+  }
+  
+  .img-klamki {
+    object-position: 70% 0;
+  }
+}
+
 .header-background {
-  background-image: url(../img/oferta/klamki.png);
+  background-image: url(../img/oferta/oferta.jpg);
+}
+
+.img-wrapper {
+  display: inline-block; /* change the default display type to inline-block */
+  overflow: hidden;      /* hide the overflow */
+}
+
+.red-button-margin {
+  margin-top: 10rem!important;
 }
 
 ul>li{

@@ -7,6 +7,25 @@
   border-top: 2px solid #999;
 }
 
+header .carousel-inner {
+  max-height: 900px;
+}
+
+.logo {
+  height: 70px;
+}
+
+
+@media only screen and (min-width: 992px) {
+  nav {
+    padding-left: 8rem!important;
+  }
+}
+
+#realizacje-content>#carouselIndicators {
+  max-height: 900px;
+}
+
 html {
   overflow: scroll;
   overflow-x: hidden;
@@ -22,6 +41,7 @@ body {
   margin-right: auto;
   background-color: #3d3d3d;
 }
+
 
 ::-webkit-scrollbar-thumb {
   background: #FF0000;
@@ -99,7 +119,7 @@ a:hover {
 }
 
 .oferta-background {
- background-color: #fff
+ background-color: #fff;
 }
 
 .realizacje-background {
@@ -127,15 +147,6 @@ a:hover {
   color: #Ffffff;
 }
 
-.left-content-txt {
-  margin-top:7rem!important;
-}
-
-
-.right-content-txt {
-  margin-top:6rem!important;
-}
-
 .border-white {
     border-color: #fff;
     border: 1px solid #fff;
@@ -158,6 +169,14 @@ hr {
 
 .mt-70percent {
   margin-top: 70%;
+}
+
+.mb-7 {
+  margin-bottom: 7rem!important;
+}
+
+.pb-7 {
+  padding-bottom: 7rem!important;
 }
 
 .icon-ad-size {
@@ -247,6 +266,8 @@ footer .btn-arrow {
 .overflow-hidden { overflow: hidden; }
 
 footer {
+  padding-left: 8rem!important;
+  max-width: 1600px;
   position: fixed;
   bottom: 0px;
   left: 0px;
