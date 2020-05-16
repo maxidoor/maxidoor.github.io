@@ -25,7 +25,6 @@ header .carousel-inner {
   }
 }
 
-
 @media only screen and (min-width: 768px) {
   .onas-txt {
     margin-top: 3rem!important;
@@ -34,6 +33,16 @@ header .carousel-inner {
 
 .onas-txt {
   margin-top: 1rem!important;
+}
+
+@media only screen and (min-width: 768px) {
+  .oferta-txt {
+    margin-top: 3rem!important;
+  }
+}
+
+.oferta-txt {
+  margin-top: 4rem!important;
 }
 
 #realizacje-content>#carouselIndicators {
@@ -199,6 +208,11 @@ hr {
 .icon-ad-size {
     height: 50px;
     width: auto;
+}
+
+.icon-car-ad-size {
+  height: 40px;
+  width: auto;
 }
 
 .btn-primary {
