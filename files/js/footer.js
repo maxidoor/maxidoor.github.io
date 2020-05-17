@@ -8,6 +8,7 @@ $('.nav-link').click(function () {
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
+  .not('[href="#sticky-contact-txt"]')
   .not('[href="#0"]')
   .click(function(event) {
     // On-page links
@@ -24,7 +25,7 @@ $('a[href*="#"]')
         // Only prevent default if animation is actually gonna happen
         event.preventDefault();
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top - 90
         }, 1000, function() {
           // Callback after animation
           // Must change focus!

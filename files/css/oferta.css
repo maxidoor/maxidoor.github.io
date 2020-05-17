@@ -21,6 +21,10 @@ ul>li{
   margin: 10px;
 }
 
+.pb-5px {
+  padding-bottom: 5px;
+}
+
 .h4 {
   margin-bottom: .5rem;
   font-family: inherit;
