@@ -27,13 +27,17 @@
 }
 
 #realizacje-content a.galler-link {
-  color: black;
+  color: #999;
   text-decoration: none;
 }
 
 #realizacje-content a:hover.galler-link {
   color: red;
   text-decoration: none;
+}
+
+#realizacje-content .galler-link.active {
+  color: black;
 }
 
 #realizacje-content ul>li{

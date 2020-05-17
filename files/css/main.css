@@ -247,7 +247,7 @@ hr {
 
 footer .btn-arrow.collapsed {
   position: absolute;
-  bottom:-8px;
+  bottom:-12px;
   z-index: 1000;
 }
 
@@ -269,7 +269,7 @@ footer .btn-arrow {
   footer .btn-arrow {
     position: absolute;
     left:95%;
-    margin-top:-11px;
+    margin-top:-17px;
     z-index: 1000;
   }
 }
@@ -305,4 +305,47 @@ footer {
   right: 0px;
   margin-bottom: 0px;
   background-color: #3D3D3D;
+}
+
+.sticky-contact {
+  position: fixed;
+  top: 40%;
+  right: 0;
+  z-index: 2000;
+}
+
+#sticky-contact-btn a[aria-expanded=true] {
+  margin-right: 200px;
+}
+#sticky-contact-btn a[aria-expanded=false] {
+  margin-right: 0px;
+}
+
+#sticky-contact-txt {
+ background-color: red;
+ color: white;
+ float: left;
+}
+
+#sticky-contact-btn {
+  float: left;
+  margin: 0 auto; 
+}
+
+
+#sticky-contact-txt {
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  transition: all 0.1s ease;
+  display: block;
+}
+#sticky-contact-txt.collapsing {
+  height: auto !important;
+  margin-left: 50%;
+  left: 50%;
+  transition: all 0.2s ease;
+}
+#sticky-contact-txt.show {
+  left: 81px;
 }
