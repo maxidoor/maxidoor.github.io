@@ -43,3 +43,19 @@ $('#galler-link-4').click(function (e) {
     e.preventDefault();
     prepareGallery('inne', 3);
 });
+
+
+// a[aria-expanded=true] .footer-button-up {
+//     display: none;
+//   }
+//   a[aria-expanded=false] .footer-button-down {
+//     display: none;
+//   }
+
+//footer
+$(window).scroll(function(event){
+    let scroll = $(window).scrollTop();
+    if (scroll > 2600) {
+        $('#collapsableFooter').collapse('show')
+    }
+ });
