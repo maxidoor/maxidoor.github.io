@@ -55,7 +55,11 @@ $('#galler-link-4').click(function (e) {
 //footer
 $(window).scroll(function(event){
     let scroll = $(window).scrollTop();
+    console.log(scroll);
     if (scroll > 2600) {
         $('#collapsableFooter').collapse('show')
+    }
+    if (scroll < 2600 && scroll > 2500) {
+        $('#collapsableFooter').collapse('hide')
     }
  });
