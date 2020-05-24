@@ -30,12 +30,19 @@ header .carousel-img {
 
 header ol.carousel-indicators {
    position: absolute;
-   bottom: 5px;
+   bottom: -3rem;
    margin: 0;
    left: 0;
    right: 0;
    width: auto;
 }
+
+@media only screen and (min-width: 992px) {
+   header ol.carousel-indicators {
+      bottom: 15px;
+   }
+ }
+
 
 header ol.carousel-indicators li,
 header ol.carousel-indicators li.active {

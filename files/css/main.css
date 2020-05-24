@@ -28,9 +28,27 @@ header .carousel-inner {
 }
 
 .brand-name {
-  height: 150px;
+  top: 10px;
+  height: 90px;
 }
 
+
+@media only screen and (min-width: 768px) {
+  .brand-name {
+    top: 0px;
+    height: 110px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .brand-name {
+    height: 150px;
+  }
+}
+
+.mobile-header-button {
+    margin-top: 15rem;
+}
 
 
 @media only screen and (min-width: 992px) {
@@ -148,6 +166,11 @@ a:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.header-mobile-background {
+  background-image: url(../img/strona_glowna/glowna-mobile.png);
+  min-height: 500px;
 }
 
 .onas-background {
