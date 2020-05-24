@@ -17,6 +17,13 @@
   margin-top: 7rem!important;
 }
 
+.model-label {
+  position: absolute;
+  z-index: 100;
+  top: 13%;
+  right: 10%;
+}
+
 ul>li{
   margin: 10px;
 }
