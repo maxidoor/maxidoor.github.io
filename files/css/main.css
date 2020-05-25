@@ -59,7 +59,7 @@ header .carousel-inner {
 
 @media only screen and (min-width: 768px) {
   .onas-txt {
-    margin-top: 3rem!important;
+    padding-top: 10rem!important;
   }
 }
 
@@ -175,7 +175,7 @@ a:hover {
 
 .onas-background {
   background-image: url(../img/o_nas/tlo.png);
-  min-height: 700px;
+  min-height: 900px;
 }
 
 .oferta-background {
