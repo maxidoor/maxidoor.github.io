@@ -1,0 +1,15 @@
+User-agent: *
+
+Allow: /wp-admin/admin-ajax.php
+
+Disallow: /wp-admin/
+
+Disallow: /?s=
+
+User-agent: Googlebot
+Disallow:
+
+User-agent: Googlebot-image
+Disallow:
+
+Sitemap: https://intrak.com.pl/sitemap_index.xml
