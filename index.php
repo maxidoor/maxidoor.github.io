@@ -8,6 +8,10 @@
 <?php header("Location: https://maxidoor.pl/"); ?>
 <?php elseif($_SERVER['REQUEST_URI'] == "/index.php/") : ?>
 <?php header("Location: https://maxidoor.pl/"); ?>
+     <?php if($_SERVER['REQUEST_URI'] == "/index.html") : ?>
+<?php header("Location: https://maxidoor.pl/"); ?>
+<?php elseif($_SERVER['REQUEST_URI'] == "/index.html/") : ?>
+<?php header("Location: https://maxidoor.pl/"); ?>
 <?php else: ?>
     <?php endif; ?>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
