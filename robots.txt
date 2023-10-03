@@ -2,3 +2,6 @@ User-agent: *
 
 Disallow: *index*
 Disallow: *html*
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
